@@ -1,10 +1,13 @@
 <script setup>
 import JobListing from './JobListing.vue';
-import jobData from '@/components/jobs.json';
+import jobData from '@/jobs.json';
 import { ref } from 'vue';
 import { RouterLink } from 'vue-router';
 
-const jobs = ref(jobData); 
+const jobs = ref(jobData.jobs); 
+
+console.log("jobData:", jobData)
+console.log("jobs object:", jobs)
 
 defineProps({
     limit: Number,
