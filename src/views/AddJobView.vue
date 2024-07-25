@@ -1,5 +1,7 @@
 <script setup>
-import { reactive } from 'vue';
+import router from '@/router';
+import axios from 'axios';
+import {  reactive } from 'vue';
 
 const form = reactive({
     type: 'Full-Time',
@@ -15,16 +17,43 @@ const form = reactive({
     }
 });
 
+const handleSubmit = async () => {
+    
+    const newJob = {
+        type: form.type,
+        title: form.title,
+        description: form.description,
+        salary: form.salary,
+        location: form.location,
+        company: {
+            name: form.company.name,
+            description: form.company.description,
+            contactEmail: form.company.contactEmail,
+            contactPhone: form.company.contactPhone
+        }
+    };
+
+    try {
+        const response = await axios.post('/api/jobs', newJob);
+        
+        router.push(`/jobs/${response.data.id}`);
+    } catch (error) {
+        console.error('Error adding job:', error);
+    }
+
+    console.log(newJob);
+};
+
 </script>
 
 
 <template>
-        <section class="bg-green-50">
+    <section class="bg-green-50">
       <div class="container m-auto max-w-2xl py-24">
         <div
           class="bg-white px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0"
         >
-          <form>
+          <form @submit.prevent="handleSubmit">
             <h2 class="text-3xl text-center font-semibold mb-6">Add Job</h2>
 
             <div class="mb-4">

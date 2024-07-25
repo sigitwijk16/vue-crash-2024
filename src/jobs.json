@@ -1,7 +1,7 @@
-{ 
+{
   "jobs": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Senior Vue Developer",
       "type": "Full-Time",
       "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Front-End Engineer (Vue)",
       "type": "Full-Time",
       "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Vue.js Developer",
       "type": "Full-Time",
       "description": "Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Vue Front-End Developer",
       "type": "Part-Time",
       "description": "Join our team as a Part-Time Front-End Developer in beautiful Pheonix, AZ. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Full Stack Vue Developer",
       "type": "Full-Time",
       "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Vue Native Developer",
       "type": "Full-Time",
       "description": "Join our team as a Front-End Developer in beautiful Portland, OR. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
@@ -82,6 +82,104 @@
         "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "3010",
+      "type": "Remote",
+      "title": "Wayne Ochoa",
+      "description": "Anim aute vel veniam",
+      "salary": "Over $200K",
+      "location": "Doloremque quos et o",
+      "company": {
+        "name": "Jones Allen Co",
+        "description": "Nulla aspernatur vol",
+        "contactEmail": "qydaf@mailinator.com",
+        "contactPhone": "+1 (358) 976-1645"
+      }
+    },
+    {
+      "id": "3290",
+      "type": "Remote",
+      "title": "Wayne Ochoa",
+      "description": "Anim aute vel veniam",
+      "salary": "Over $200K",
+      "location": "Doloremque quos et o",
+      "company": {
+        "name": "Jones Allen Co",
+        "description": "Nulla aspernatur vol",
+        "contactEmail": "qydaf@mailinator.com",
+        "contactPhone": "+1 (358) 976-1645"
+      }
+    },
+    {
+      "id": "50b9",
+      "type": "Remote",
+      "title": "Wayne Ochoa",
+      "description": "Anim aute vel veniam",
+      "salary": "Over $200K",
+      "location": "Doloremque quos et o",
+      "company": {
+        "name": "Jones Allen Co",
+        "description": "Nulla aspernatur vol",
+        "contactEmail": "qydaf@mailinator.com",
+        "contactPhone": "+1 (358) 976-1645"
+      }
+    },
+    {
+      "id": "14a9",
+      "type": "Full-Time",
+      "title": "Brennan Leach",
+      "description": "Maxime veniam dolor",
+      "salary": "$80K - $90K",
+      "location": "Facilis voluptatem m",
+      "company": {
+        "name": "Hernandez Savage Inc",
+        "description": "Ut ullam officia rat",
+        "contactEmail": "rafi@mailinator.com",
+        "contactPhone": "+1 (946) 487-6972"
+      }
+    },
+    {
+      "id": "1c15",
+      "type": "Remote",
+      "title": "Oscar Goff",
+      "description": "Nulla dolore ea a te",
+      "salary": "$60K - $70K",
+      "location": "Ut pariatur Officia",
+      "company": {
+        "name": "Weiss Mathis Trading",
+        "description": "Illum quos repudian",
+        "contactEmail": "sopunym@mailinator.com",
+        "contactPhone": "+1 (175) 377-3879"
+      }
+    },
+    {
+      "id": "3870",
+      "type": "Full-Time",
+      "title": "Quentin Fuentes",
+      "description": "Ad et non eos autem",
+      "salary": "$90K - $100K",
+      "location": "Natus fugit aliqua",
+      "company": {
+        "name": "Bell Mullen Associates",
+        "description": "Soluta neque quis do",
+        "contactEmail": "qezamelapa@mailinator.com",
+        "contactPhone": "+1 (531) 813-2166"
+      }
+    },
+    {
+      "id": "554f",
+      "type": "Internship",
+      "title": "Camden Cherry",
+      "description": "Qui repellendus Ali",
+      "salary": "$50K - $60K",
+      "location": "Illum irure ratione",
+      "company": {
+        "name": "Best and Blake Trading",
+        "description": "Eos expedita iste i",
+        "contactEmail": "favoxovun@mailinator.com",
+        "contactPhone": "+1 (789) 933-5291"
       }
     }
   ]
