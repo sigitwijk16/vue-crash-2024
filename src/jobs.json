@@ -15,18 +15,18 @@
       }
     },
     {
-      "id": "2",
-      "title": "Front-End Engineer (Vue)",
       "type": "Full-Time",
+      "title": "Vue Engineer BroCoder",
       "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
-      "location": "Miami, FL",
-      "salary": "$70K - $80K",
+      "salary": "$100K - $125K",
+      "location": "Jogja",
       "company": {
         "name": "Veneer Solutions",
         "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
         "contactEmail": "contact@loremipsum.com",
         "contactPhone": "555-555-5555"
-      }
+      },
+      "id": "2"
     },
     {
       "id": "3",
@@ -152,34 +152,6 @@
         "description": "Illum quos repudian",
         "contactEmail": "sopunym@mailinator.com",
         "contactPhone": "+1 (175) 377-3879"
-      }
-    },
-    {
-      "id": "3870",
-      "type": "Full-Time",
-      "title": "Quentin Fuentes",
-      "description": "Ad et non eos autem",
-      "salary": "$90K - $100K",
-      "location": "Natus fugit aliqua",
-      "company": {
-        "name": "Bell Mullen Associates",
-        "description": "Soluta neque quis do",
-        "contactEmail": "qezamelapa@mailinator.com",
-        "contactPhone": "+1 (531) 813-2166"
-      }
-    },
-    {
-      "id": "554f",
-      "type": "Internship",
-      "title": "Camden Cherry",
-      "description": "Qui repellendus Ali",
-      "salary": "$50K - $60K",
-      "location": "Illum irure ratione",
-      "company": {
-        "name": "Best and Blake Trading",
-        "description": "Eos expedita iste i",
-        "contactEmail": "favoxovun@mailinator.com",
-        "contactPhone": "+1 (789) 933-5291"
       }
     }
   ]
